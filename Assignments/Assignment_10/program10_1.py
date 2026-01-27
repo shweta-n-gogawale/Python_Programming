@@ -1,8 +1,8 @@
 """
-    Function Name   : Display
-    Description     : Prints "Jay Ganesh" on console.
-    Input           : None
-    Output          : Jay Ganesh
+    Function Name   : DisplayTable
+    Description     : Accepts one number and prints its multiplication table.
+    Input           : int
+    Output          : Multiplication table
     Author          : Shweta Narayan Gogawale
     Date            : 2026-01-27
 """
