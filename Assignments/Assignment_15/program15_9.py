@@ -1,6 +1,6 @@
 """
-    Function Name   : AddAll
-    Description     : Accepts a list of numbers and returns addition of all elements.
+    Function Name   : ProductAll
+    Description     : Accepts a list of numbers and returns product of all elements.
     Input           : list
     Output          : int
     Author          : Shweta Narayan Gogawale
@@ -10,5 +10,5 @@
 from functools import reduce
 
 numbers = [1, 2, 3, 4, 5]
-result = reduce(lambda a, b: a + b, numbers)
+result = reduce(lambda a, b: a * b, numbers)
 print(result)

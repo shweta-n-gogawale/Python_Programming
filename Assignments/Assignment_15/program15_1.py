@@ -1,16 +1,12 @@
 """
-    Function Name   : AreaRectangle
-    Description     : Accepts length and width of rectangle and prints its area.
-    Input           : int, int
-    Output          : Area of rectangle
+    Function Name   : SquareList
+    Description     : Accepts a list of numbers and returns list of squares.
+    Input           : list
+    Output          : list
     Author          : Shweta Narayan Gogawale
-    Date            : 2026-01-27
+    Date            : 2026-01-30
 """
 
-def AreaRectangle(length, width):
-    area = length * width
-    print("Area of rectangle:", area)
-
-l = int(input("Enter length: "))
-w = int(input("Enter width: "))
-AreaRectangle(l, w)
+numbers = [1, 2, 3, 4, 5]
+result = list(map(lambda x: x * x, numbers))
+print(result)

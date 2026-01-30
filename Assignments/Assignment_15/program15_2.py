@@ -1,15 +1,12 @@
 """
-    Function Name   : AreaCircle
-    Description     : Accepts radius of circle and prints its area.
-    Input           : int
-    Output          : Area of circle
+    Function Name   : EvenList
+    Description     : Accepts a list of numbers and returns list of even numbers.
+    Input           : list
+    Output          : list
     Author          : Shweta Narayan Gogawale
-    Date            : 2026-01-27
+    Date            : 2026-01-30
 """
 
-def AreaCircle(radius):
-    area = 3.14 * radius * radius
-    print("Area of circle:", area)
-
-r = int(input("Enter radius: "))
-AreaCircle(r)
+numbers = [1, 2, 3, 4, 5, 6]
+result = list(filter(lambda x: x % 2 == 0, numbers))
+print(result)
