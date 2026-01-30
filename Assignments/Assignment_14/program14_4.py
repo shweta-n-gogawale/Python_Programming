@@ -9,3 +9,4 @@
 
 Minimum = lambda a, b: a if a < b else b
 print(Minimum(10, 20))
+ 
